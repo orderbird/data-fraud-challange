@@ -1,7 +1,12 @@
 
-# Tech Challange for Data Scientist (Payment Fraut) 
+# Tech Challenge for Data Scientist (Payment Fraut) 
 
-TODO: General into on how to work on the challange
+Welcome to our Tech Challenge. 
+We have prepared some data and tasks for you.
+
+We expect that you create python scripts or jupyter noteboosk for working with this data, using popular tools such as pandas, pySpark and scikit-learn. If you prefer another tool, please explain why. 
+Finally, for a better understanding of your approaches and ideas, please comment your code. 
+Please send your output attached to an e-mail to us, so you won't leak your solution to other candidates inside a github fork or pull request.
 
 ## 1. Looking at the Data
 
