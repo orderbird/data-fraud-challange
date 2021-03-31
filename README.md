@@ -1,2 +1,39 @@
-# data-fraud-challange
-Tech Challange for Data Scientist (Payment Fraud)
+
+# Tech Challenge for Data Scientist (Payment Fraut) 
+
+Welcome to our Tech Challenge. 
+We have prepared some data and tasks for you.
+
+We expect that you create python scripts or jupyter noteboosk for working with this data, using popular tools such as pandas, pySpark and scikit-learn. If you prefer another tool, please explain why. 
+Finally, for a better understanding of your approaches and ideas, please comment your code. 
+Please send your output attached to an e-mail to us, so you won't leak your solution to other candidates inside a github fork or pull request.
+
+## 1. Looking at the Data
+
+Inside this repository, we provide you with a file containing data about credit defaults as well as a description of the file format.
+
+ 1. Loading the data/credit-training-data.csv and replace codes with more meaningfull values
+ 2. Visualize the distribution of the attributes inside the data
+
+## 2. Predicting Credit Outcomes
+
+ 1. Develop at least two (a baseline and a more sofisticateed) Machine Learning or Statistical models, that can predict the outcome (Good vs. Bad) for a given credit based on the attributes of the credit/person.
+ 2. Compare and explain the outcomes of these models.
+
+## 3. Dealing with the Risk
+
+Consider the following:
+ a. Giving out a credit that turns out to be good wil give you 30% profit of the credit sum.
+ b. Giving out a credit that turns out to be bad will cost you 90% of the credit sum.
+ c. Losing a good customer will give you a bad reputation resulting in 5% of the credit sum in future loss.
+ d. Rejecting a bad customer is the right thing to do and results in no loss at all.
+
+1. Tune your models accordingly to optimize you profit.
+2. What's the expected profit when using the model
+
+## 4. Fraud Automation
+
+1. Finally, create a python scritp that will apply you're credit outcome prediction on a given input file.
+2. Create an airflow DAG that is able to apply your credit outcome prediction on a daily manner 
+   and test it using our supplied airflow docker base image.
+
