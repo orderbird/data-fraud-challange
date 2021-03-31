@@ -2,11 +2,12 @@ The data is stored in csv format and compressed using gzip compression. The Cont
 
 | Column | Type        | Description               | Values |
 |--------|-------------|---------------------------|--------|
+| 0      | numeric     | Credit Identifier         |        |
 | 1      | qualitative | Money on checking account | 11 : ... < 0
 |        |             |                           | 12 : 0 <= ... < 200
 |        |             |                           | 13 : ... >= 200 / salary assignments for at least 1 year
 |        |             |                           | 14 : no checking account
-| 2      | numerical   | Duration in month     
+| 2      | numerical   | Duration in month
 | 3      | categorical | Credit History            | 30 : no credits taken/ all credits paid back duly
 |        |             |                           | 31 : all credits at this bank paid back duly
 |        |             |                           | 32 : existing credits paid back duly till now
