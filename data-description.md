@@ -1,7 +1,5 @@
 The data is stored in csv format and compressed using gzip compression. The Content of each column is descriped in the following table:
 
-names = ['id', 'money', 'duration', 'history', 'purpose', ]
-
 | Column | Type        | Description               | Values |
 |--------|-------------|---------------------------|--------|
 | 0      | numerical   | Credit Identifier         |        |
