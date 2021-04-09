@@ -1,11 +1,13 @@
 The data is stored in csv format and compressed using gzip compression. The Content of each column is descriped in the following table:
 
+names = ['id', 'money', 'duration', 'history', 'purpose', ]
+
 | Column | Type        | Description               | Values |
 |--------|-------------|---------------------------|--------|
-| 0      | numeric     | Credit Identifier         |        |
+| 0      | numerical   | Credit Identifier         |        |
 | 1      | qualitative | Money on checking account | 11 : ... < 0
 |        |             |                           | 12 : 0 <= ... < 200
-|        |             |                           | 13 : ... >= 200 / salary assignments for at least 1 year
+|        |             |                           | 13 : ... >= 200
 |        |             |                           | 14 : no checking account
 | 2      | numerical   | Duration in month
 | 3      | categorical | Credit History            | 30 : no credits taken/ all credits paid back duly
@@ -25,7 +27,7 @@ The data is stored in csv format and compressed using gzip compression. The Cont
 |        |             |                           | 49 : business
 |        |             |                           | 410 : others
 | 5      | numerical   | Credit amount
-| 6      | quantitive  | Savings account/bonds     | 61 : ... < 100 DM
+| 6      | qualitative | Savings account/bonds     | 61 : ... < 100 DM
 |        |             |                           | 62 : 100 <= ... < 500
 |        |             |                           | 63 : 500 <= ... < 1000
 |        |             |                           | 64 : .. >= 1000
@@ -35,7 +37,7 @@ The data is stored in csv format and compressed using gzip compression. The Cont
 |        |             |                           | 73 : 1 <= ... < 4 years
 |        |             |                           | 74 : 4 <= ... < 7 years
 |        |             |                           | 75 : .. >= 7 years
-| 8      | numeric     | Installment rate in percentage of disposable income |
+| 8      | numerical   | Installment rate in percentage of disposable income |
 | 9      | categorical | Personal status and sex   | 91 : male : divorced/separated
 |        |             |                           | 92 : female : divorced/separated/married
 |        |             |                           | 93 : male : single
@@ -46,10 +48,10 @@ The data is stored in csv format and compressed using gzip compression. The Cont
 |        |             |                           | 103 : guarantor
 | 11     | numerical   | Present residence since 
 | 12     | qualitative | Property                  | 121 : real estate
-|        |             |                           | 122 : if not 121 : building society savings agreement / life insurance
+|        |             |                           | 122 : if not 121 : building society savings / life insurance
 |        |             |                           | 123 : if not 121/122 : car or other, not in attribute 6
 |        |             |                           | 124 : unknown / no property
-| 13     | numeerical  | Age
+| 13     | numerical   | Age
 | 14     | categorical | Other installment plans   | 141 : bank
 |        |             |                           | 142 : stores
 |        |             |                           | 143 : none
