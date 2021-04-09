@@ -24,7 +24,7 @@ Task 3 is about the overall optimization and Task 4 about productionizing your c
 
 Inside this repository, you an find a 
 [file containing training data](data/credit-training-data.csv.gz) as well as a
-[description of the file format](data-description.md]:
+[description of the file format](data-description.md):
 
  1. Load the data and replace codes with more meaningfull values.
 
