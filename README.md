@@ -25,7 +25,7 @@ Of course, we don't keep you from solving both :-)
 
 ## 1. Looking at the Data
 
-Inside this repository, you a find a 
+Inside this repository, you'll find a 
 [file containing training data](data/credit-training-data.csv.gz) as well as a
 [description of the file format](data-description.md):
 
