@@ -12,8 +12,8 @@ popular python tools such as pandas, pySpark and scikit-learn. If you prefer any
 Finally, for a better understanding of your approach and ideas as well as problems you might have faced, 
 please comment your code. 
 
-You should send your final submission via e-mail to us and avoid leaking 
-your solution to other candidates on github or anywhere else.
+You should send your final submission via e-mail to us. We kindly ask you to not leak your solution to other 
+candidates on github or anywhere else. Thanks!
 
 What is the mission?
 As a warm-up, in Task 1 we ask you to get familiar with the data-set. The actual challenge takes place in Task 2: 
