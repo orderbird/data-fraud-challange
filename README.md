@@ -12,10 +12,8 @@ popular python tools such as pandas, pySpark and scikit-learn. If you prefer any
 Finally, so we can have a better understanding of your approach and ideas as well as problems you might have faced, 
 please comment your code. 
 
-You should send your final submission via email to us. We kindly ask you to not leak your solution to other 
-candidates on github or anywhere else. Thanks!
-
 What is the mission?
+
 As a warm-up, in Task A we ask you to get familiar with the data set. The actual challenge takes place in Task B: 
 solving an inverse problem via machine learning or statistical techniques. Since we don't want you to spend days 
 or weeks on completing the assessment, next we let you decide if you want to complete the assessment by 
@@ -72,3 +70,9 @@ Consider the following:
    After a few minutes, you should be able to log into http://localhost:8080 using airflow:airflow as credentials.
    For more documentation on running airflow inside docker, please visit 
    [the official documentation](https://airflow.apache.org/docs/apache-airflow/stable/start/docker.html).
+   
+## And now what?
+Please send your solution to data-tech-challenge@orderbird.com and we will get back to you asap. 
+Please *do not* create a pull request or fork this repository as your solution should not be end up being public afterwards.
+
+Good luck and happy coding!
