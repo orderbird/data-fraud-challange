@@ -71,7 +71,7 @@ Consider the following:
    For more documentation on running airflow inside docker, please visit 
    [the official documentation](https://airflow.apache.org/docs/apache-airflow/stable/start/docker.html).
    
-For testing your script and airflow DAG, you can use [credit-input-20150314 input file](data/credit-input-20150314.csv.gz).
+For testing your script and airflow DAG, you can use the [credit-input-20150314](data/credit-input-20150314.csv.gz) input file.
    
 ## And now what?
 Please send your solution to data-tech-challenge@orderbird.com and we will get back to you asap. 
