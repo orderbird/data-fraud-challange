@@ -60,7 +60,7 @@ Consider the following:
 ## Task D. Automation
 
 1. Create a Python script that applies your credit outcome prediction on a given input file.
-   Your output file should contain the credit identifier and your models assessment of the credit (good vs. bad)
+   Your output file should contain the credit identifier and your models assessment of the credit (good vs. bad).
 
 2. Create an airflow DAG that is able to apply your credit outcome prediction in a daily manner 
    and test it using our supplied airflow docker images. 
@@ -70,6 +70,8 @@ Consider the following:
    After a few minutes, you should be able to log into http://localhost:8080 using airflow:airflow as credentials.
    For more documentation on running airflow inside docker, please visit 
    [the official documentation](https://airflow.apache.org/docs/apache-airflow/stable/start/docker.html).
+   
+For testing your script and airflow DAG, you can use [credit-input-20150314 input file](data/credit-input-20150314.csv.gz).
    
 ## And now what?
 Please send your solution to data-tech-challenge@orderbird.com and we will get back to you asap. 
